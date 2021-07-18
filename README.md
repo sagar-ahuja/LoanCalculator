@@ -4,7 +4,7 @@ BDD framework to test Home Loan Calculator. The framework has been built, keepin
 
 
 
-Kindly follow the below link to clone the repository into your local machine: https://help.github.com/en/articles/cloning-a-repository
+Kindly follow this link to clone the repository into your local machine: https://help.github.com/en/articles/cloning-a-repository
 
 
 
@@ -23,3 +23,5 @@ In order to execute the test, open TestRunner.java (available under src/test/jav
 An HTML based Cucumber Report is generated and the link to access it is available in the Console window after the test run.
 Navigate at the bottom of the Console messages to find Cucumber reports link which looks like - https://reports.cucumber.io/reports/<uuid>
 
+
+**NOTE: Kindly check your Java compiler settings in case you encounter Java/compiler specific issues...**
