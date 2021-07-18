@@ -1,15 +1,18 @@
 # LoanCalculator
 
-BDD framework for a sample web application
+BDD framework to test Home Loan Calculator. The framework has been built, keeping in mind the lesser number of test cases, on top of JUnit, Cucumber-Java, and Selenium. It also makes use of Design pattern Page-Object Model (POM) along with Single Responsibility Principle (SRP).
+
 
 Set up
 Kindly follow the below link to clone the repository into your local machine: https://help.github.com/en/articles/cloning-a-repository
 
+
+
 # Prerequisites:
 
-Java Runtime Environment 8
-Eclipse (IDE)
-Cucumber Eclipse Plugin (to support Gherkin)
+* Java Runtime Environment 8
+* Eclipse (IDE)
+* Cucumber Eclipse Plugin (to support Gherkin)
 
 # Execute tests:
 
