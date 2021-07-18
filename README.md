@@ -11,7 +11,7 @@ Kindly follow this link to clone the repository into your local machine: https:/
 # Prerequisites:
 
 * Java Runtime Environment 8
-* Eclipse (IDE)
+* IDE (Eclipse or IntelliJ)
 * Cucumber Eclipse Plugin (to support Gherkin)
 
 # Execute tests:
@@ -21,7 +21,7 @@ In order to execute the test, open TestRunner.java (available under src/test/jav
 # Reports:
 
 An HTML based Cucumber Report is generated and the link to access it is available in the Console window after the test run.
-Navigate at the bottom of the Console messages to find Cucumber reports link which looks like - https://reports.cucumber.io/reports/<uuid>
+Navigate at the bottom of the Console messages to find Cucumber reports link which looks like this - https://reports.cucumber.io/reports/<uuid>
 
   
   
