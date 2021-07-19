@@ -2,7 +2,9 @@ package pageObjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 public class BorrowingCapacity {
@@ -80,9 +82,9 @@ public class BorrowingCapacity {
 	 * @throws InterruptedException
 	 */
 	public String validateBorrowingEstimate() throws InterruptedException {
-//		WebDriverWait wait = new WebDriverWait(driver, 20);
-//		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@class = 'borrow__result__text__amount']")));
-		Thread.sleep(2000);
+		WebDriverWait wait = new WebDriverWait(driver, 20);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@class = 'borrow__result__text__amount']")));
+		//Thread.sleep(2000);
 		String result = driver.findElement(borrowResult).getText();
 		return result;		
 	}

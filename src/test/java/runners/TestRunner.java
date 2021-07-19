@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 					features = "src/test/resources/features", 
 				 	glue = {"stepDefinitions", "hooks"},
 				 	plugin = {"pretty"},
-				 	monochrome = true
+					monochrome = true
 				 	//tags = {"@FirstTest" , "@SecondTest", "~@ThirdTest"}
 		        )
 
